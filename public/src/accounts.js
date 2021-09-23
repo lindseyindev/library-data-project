@@ -1,5 +1,5 @@
 /*-findAccountById Returns the account object that has the matching ID.*/
-function findAccountById(accounts, id) {
+const findAccountById = (accounts, id) => {
   return accounts.find((account) => account.id === id);
 }
 
